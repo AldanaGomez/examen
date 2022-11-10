@@ -17,13 +17,13 @@ export default function Post({info, aumentar}) {
   const[likes, setLikes] = useState(0)
   
 
+
   return (
     <div className='posteo'>
       <h3>{info.titulo}</h3>
       <p>{info.texto}</p>
       <button onClick={()=>{aumentar(); setLikes(likes + 1)}}>Likes</button>
       <h5>Likes:{likes}</h5>
-    
     </div>
   )
 }

@@ -18,7 +18,6 @@ export default function Estatus({totalLikes}) {
           {totalLikes}
         </span>
       </p>
-      
     </header>
   )
 }
